@@ -5,6 +5,11 @@
 ## Sobre o Projeto
 Este projeto é um motor voxel desenvolvido na Unity focado na geração procedural de cenários e otimização de malhas 3D. O sistema cria mundos dinâmicos em blocos divididos em "Chunks", utilizando algoritmos de ruído para simular relevos naturais e otimização de renderização de faces.
 
+## Objetivos Específicos do Projeto
+* **Armazenamento:** Criar sistemas de dados baseado em Chunks (pedaços de mundo), contendo informações sobre coordenadas globais e posição de blocos.
+* **Renderização Otimizada:** Utilizar sistemas baseados em Naive Meshing, como Face Culling, para esconder faces de blocos desnecessárias para o jogo, aumentando a eficiência do motor em até 70%. 
+* **Geração de Terreno Procedural:** Desenvolver um algoritmo de geração procedural para gerar relevos naturais semi-aleatórios.
+
 ---
 
 ## Funcionalidades e Sistemas
@@ -37,7 +42,7 @@ Para rodar este projeto localmente, você precisará da Unity instalada.
 
 1. Clone o repositório utilizando o terminal (via GitHub CLI):
    ```bash
-   gh repo clone seu-usuario/nome-do-repositorio
+   gh repo clone ArthurCarvalhoCC/Gerador-de-Terreno-Voxel-Procedural
    ```
 2. Abra o Unity Hub e adicione o projeto a partir da pasta clonada.
 3. Abra a cena principal e execute o projeto para visualizar a geração procedural ocorrendo em tempo real.
