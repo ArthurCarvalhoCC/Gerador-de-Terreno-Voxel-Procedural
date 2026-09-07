@@ -1,0 +1,18 @@
+# Pastas de Build e Cache da Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Configurações do VS Code / IDE
+.vscode/ 
+
+# Arquivos de Projeto e Solução do Visual Studio / VS Code
+*.csproj
+*.unityproj
+*.sln
+*.slnx
