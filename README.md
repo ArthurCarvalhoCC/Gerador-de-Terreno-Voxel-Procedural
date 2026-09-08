@@ -1,9 +1,9 @@
-# Voxel Engine: Gerador de Terreno Procedural
+# Voxel Engine: Gerador de Terreno Procedural 
 
-> Status do Projeto: Em Desenvolvimento
+> Status do Projeto: Finalizado
 
 ## Sobre o Projeto
-Este projeto é um motor voxel desenvolvido na Unity focado na geração procedural de cenários e otimização de malhas 3D. O sistema cria mundos dinâmicos em blocos divididos em "Chunks", utilizando algoritmos de ruído para simular relevos naturais e otimização de renderização de faces.
+Este projeto é um motor voxel desenvolvido na Unity focado em utilizar os sistemas principais de uma geração procedural de cenários com otimização de malhas 3D. O sistema cria mundos dinâmicos em blocos divididos em "Chunks", utilizando algoritmos de ruído para simular relevos naturais e otimização de renderização de faces.
 
 ## Objetivos Específicos do Projeto
 * **Armazenamento:** Criar sistemas de dados baseado em Chunks (pedaços de mundo), contendo informações sobre coordenadas globais e posição de blocos.
